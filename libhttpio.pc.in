@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE_NAME@
+Description: Simple HTTP request library
+    with websocket support and direct request
+    building like with a printf() style
+Requires: libssl libcrypto zlib
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -l@PACKAGE_NAME@
+Cflags: -I${includedir}/httpio
