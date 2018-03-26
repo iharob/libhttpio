@@ -1,4 +1,4 @@
-AC_INIT([httpio], [1.0.5], [iharob@gmail.com])
+AC_INIT([libhttpio], [1.0.5], [iharob@gmail.com])
 AM_INIT_AUTOMAKE([subdir-objects foreign])
 
 AC_PROG_LIBTOOL

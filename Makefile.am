@@ -19,7 +19,7 @@ httpio_HEADERS = \
     include/http-util.h            \
     include/http-websockets.h
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = httpio.pc
+pkgconfig_DATA = libhttpio.pc
 
 CPPCHECKOPTS = warning,style,performance
 

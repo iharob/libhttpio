@@ -9,5 +9,5 @@ Description: Simple HTTP request library
     building like with a printf() style
 Requires: libssl libcrypto zlib
 Version: @PACKAGE_VERSION@
-Libs: -L${libdir} -l@PACKAGE_NAME@
+Libs: -L${libdir} -lhttpio
 Cflags: -I${includedir}/httpio
